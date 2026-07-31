@@ -88,7 +88,7 @@ outputs:
   resultsJson:
     description: 'The resulting stats stored as a step output variable in JSON format.'
 runs:
-  using: node20
+  using: node24
   main: 'dist/index.js'
 branding:
   icon: 'award'
